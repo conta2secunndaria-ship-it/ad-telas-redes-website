@@ -1,0 +1,141 @@
+{
+  "name": "AD Telas e Redes Design System",
+  "version": "1.0.0",
+  "colors": {
+    "primary": {
+      "name": "Teal Primary",
+      "hex": "#0f7b6e",
+      "rgb": "rgb(15, 123, 110)",
+      "rgba": "rgba(15, 123, 110, 1)",
+      "hsl": "hsl(171, 78%, 27%)",
+      "usage": "Buttons primários, links, highlights",
+      "contrast": "#ffffff"
+    },
+    "primary_dark": {
+      "name": "Teal Primary Dark (Hover)",
+      "hex": "#065d55",
+      "rgb": "rgb(6, 93, 85)",
+      "usage": "Hover states, darker accents"
+    },
+    "primary_light": {
+      "name": "Teal Primary Light",
+      "hex": "#1aa89d",
+      "rgb": "rgb(26, 168, 157)",
+      "usage": "Badges, light accents"
+    },
+    "accent_warm": {
+      "name": "Orange Warm (CTA)",
+      "hex": "#e67e3c",
+      "rgb": "rgb(230, 126, 60)",
+      "rgba": "rgba(230, 126, 60, 1)",
+      "usage": "Primary CTAs, urgent actions",
+      "contrast": "#ffffff"
+    },
+    "accent_warm_dark": {
+      "name": "Orange Warm Dark (Hover)",
+      "hex": "#d46f2a",
+      "rgb": "rgb(212, 111, 42)",
+      "usage": "CTA hover states"
+    },
+    "neutral_white": {
+      "name": "White",
+      "hex": "#ffffff",
+      "rgb": "rgb(255, 255, 255)",
+      "usage": "Background principal, card backgrounds"
+    },
+    "neutral_light": {
+      "name": "Light Gray",
+      "hex": "#f8f9fa",
+      "rgb": "rgb(248, 249, 250)",
+      "usage": "Section backgrounds, light surfaces"
+    },
+    "neutral_gray": {
+      "name": "Gray",
+      "hex": "#6b7280",
+      "rgb": "rgb(107, 114, 128)",
+      "usage": "Secondary text, borders"
+    },
+    "neutral_dark": {
+      "name": "Dark Gray",
+      "hex": "#1f2937",
+      "rgb": "rgb(31, 41, 55)",
+      "usage": "Footer background"
+    },
+    "text_primary": {
+      "name": "Text Primary (Almost Black)",
+      "hex": "#111827",
+      "rgb": "rgb(17, 24, 39)",
+      "usage": "Headings, primary text",
+      "contrast": "#ffffff"
+    },
+    "text_secondary": {
+      "name": "Text Secondary",
+      "hex": "#6b7280",
+      "rgb": "rgb(107, 114, 128)",
+      "usage": "Secondary text, descriptions"
+    },
+    "success": {
+      "name": "Success Green",
+      "hex": "#10b981",
+      "rgb": "rgb(16, 185, 129)",
+      "usage": "Success messages, checkmarks",
+      "contrast": "#ffffff"
+    },
+    "error": {
+      "name": "Error Red",
+      "hex": "#ef4444",
+      "rgb": "rgb(239, 68, 68)",
+      "usage": "Error states, alerts",
+      "contrast": "#ffffff"
+    },
+    "border": {
+      "name": "Border Gray",
+      "hex": "#e5e7eb",
+      "rgb": "rgb(229, 231, 235)",
+      "usage": "Borders, dividers"
+    },
+    "rating_gold": {
+      "name": "Rating Gold (Stars)",
+      "hex": "#fbbf24",
+      "rgb": "rgb(251, 191, 36)",
+      "usage": "Star ratings, highlights"
+    }
+  },
+  "typography": {
+    "family_heading": "Poppins, -apple-system, sans-serif",
+    "family_body": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Poppins', sans-serif",
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "xs": "0.5rem",
+    "sm": "1rem",
+    "md": "1.5rem",
+    "lg": "2rem",
+    "xl": "2.5rem",
+    "2xl": "3rem",
+    "3xl": "4rem",
+    "4xl": "5rem"
+  },
+  "shadows": {
+    "sm": "0 1px 2px rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px rgba(0, 0, 0, 0.1)",
+    "lg": "0 10px 25px rgba(0, 0, 0, 0.15)"
+  },
+  "radius": {
+    "sm": "0.375rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "full": "9999px"
+  },
+  "breakpoints": {
+    "mobile": "0px",
+    "tablet": "768px",
+    "desktop": "1280px"
+  }
+}
