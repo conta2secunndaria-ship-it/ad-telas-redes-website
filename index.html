@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Telas mosquiteiras, redes de proteção e pet screen sob medida. Instalação em 48h, garantia de 2 anos. Orçamento grátis em São Paulo.">
+    <meta name="keywords" content="tela mosquiteira, rede de proteção, pet screen, São Paulo, instalação">
+    <meta property="og:title" content="AD Telas e Redes — Proteção Profissional para Sua Casa">
+    <meta property="og:description" content="Telas e redes de proteção sob medida. Instalação rápida, garantia estendida.">
+    <meta property="og:image" content="/images/hero_varanda_01.jpg">
+    <meta property="og:url" content="https://adtelaseredes.com.br">
+    <title>AD Telas e Redes | Telas Mosquiteiras e Redes de Proteção em SP</title>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX');
+    </script>
+
+    <style>
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* DESIGN SYSTEM & RESET                                              */
+        /* ═══════════════════════════════════════════════════════════════════ */
+        
+        :root {
+            /* Cores — Paleta Premium Local Service */
+            --color-primary: #0f7b6e;      /* Teal/Verde-azulado (Confiança) */
+            --color-primary-dark: #065d55; /* Hover state */
+            --color-primary-light: #1aa89d; /* Accent */
+            --color-accent-warm: #e67e3c;  /* Orange (CTAs) */
+            --color-accent-warm-dark: #d46f2a;
+            --color-neutral-white: #ffffff;
+            --color-neutral-light: #f8f9fa;
+            --color-neutral-gray: #6b7280;
+            --color-neutral-dark: #1f2937;
+            --color-text-primary: #111827;
+            --color-text-secondary: #6b7280;
+            --color-border: #e5e7eb;
+            --color-success: #10b981;
+            --color-error: #ef4444;
+
+            /* Tipografia */
+            --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Poppins', sans-serif;
+            --font-family-heading: 'Poppins', -apple-system, sans-serif;
+            --font-size-sm: 0.875rem;
+            --font-size-base: 1rem;
+            --font-size-lg: 1.125rem;
+            --font-size-xl: 1.25rem;
+            --font-size-2xl: 1.5rem;
+            --font-size-3xl: 1.875rem;
+            --font-size-4xl: 2.25rem;
+            --font-size-5xl: 3rem;
+            --font-weight-regular: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+
+            /* Espaçamento */
+            --space-2: 0.5rem;
+            --space-4: 1rem;
+            --space-6: 1.5rem;
+            --space-8: 2rem;
+            --space-10: 2.5rem;
+            --space-12: 3rem;
+            --space-16: 4rem;
+            --space-20: 5rem;
+
+            /* Sombras */
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+            /* Transições */
+            --duration-fast: 150ms;
+            --duration-normal: 250ms;
+            --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+            /* Raio de borda */
+            --radius-sm: 0.375rem;
+            --radius-md: 0.5rem;
+            --radius-lg: 0.75rem;
+            --radius-xl: 1rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-family-base);
+            color: var(--color-text-primary);
+            background-color: var(--color-neutral-white);
+            line-height: 1.6;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* TIPOGRAFIA                                                          */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-family-heading);
+            font-weight: var(--font-weight-bold);
+            line-height: 1.2;
+            margin-bottom: var(--space-4);
+        }
+
+        h1 { font-size: var(--font-size-5xl); }
+        h2 { font-size: var(--font-size-4xl); }
+        h3 { font-size: var(--font-size-3xl); }
+        h4 { font-size: var(--font-size-2xl); }
+        h5 { font-size: var(--font-size-xl); }
+        h6 { font-size: var(--font-size-lg); }
+
+        p {
+            margin-bottom: var(--space-4);
+            color: var(--color-text-secondary);
+        }
+
+        a {
+            color: var(--color-primary);
+            text-decoration: none;
+            transition: color var(--duration-fast) var(--ease-in-out);
+        }
+
+        a:hover {
+            color: var(--color-primary-dark);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* COMPONENTES REUTILIZÁVEIS                                           */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-4) var(--space-8);
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-semibold);
+            border-radius: var(--radius-lg);
+            border: none;
+            cursor: pointer;
+            transition: all var(--duration-normal) var(--ease-in-out);
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background-color: var(--color-accent-warm);
+            color: var(--color-neutral-white);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--color-accent-warm-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-secondary {
+            background-color: var(--color-primary);
+            color: var(--color-neutral-white);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--color-primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--color-primary);
+            color: var(--color-primary);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--color-primary);
+            color: var(--color-neutral-white);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: var(--space-2) var(--space-4);
+            background-color: var(--color-primary-light);
+            color: var(--color-neutral-white);
+            border-radius: var(--radius-sm);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-semibold);
+        }
+
+        .card {
+            background-color: var(--color-neutral-white);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            transition: all var(--duration-normal) var(--ease-in-out);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* HEADER / NAVEGAÇÃO                                                  */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        header {
+            background-color: var(--color-neutral-white);
+            border-bottom: 1px solid var(--color-border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: var(--space-4) 0;
+            gap: var(--space-6);
+        }
+
+        .logo {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .logo svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+
+        .nav-menu {
+            display: none;
+            flex: 1;
+            list-style: none;
+            gap: var(--space-8);
+        }
+
+        .nav-menu li {
+            font-size: var(--font-size-base);
+        }
+
+        .nav-menu a {
+            color: var(--color-text-primary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .nav-menu a:hover {
+            color: var(--color-primary);
+        }
+
+        .nav-contact {
+            display: flex;
+            align-items: center;
+            gap: var(--space-4);
+        }
+
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            width: 24px;
+            height: 24px;
+        }
+
+        .hamburger span {
+            width: 100%;
+            height: 2px;
+            background-color: var(--color-text-primary);
+            transition: all var(--duration-normal) var(--ease-in-out);
+        }
+
+        @media (min-width: 768px) {
+            .nav-menu {
+                display: flex !important;
+            }
+            .hamburger {
+                display: none;
+            }
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* HERO SECTION                                                        */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .hero {
+            background: linear-gradient(135deg, rgba(15, 123, 110, 0.9) 0%, rgba(10, 95, 85, 0.95) 100%),
+                        url('/images/hero_varanda_01.jpg') center/cover;
+            background-attachment: fixed;
+            color: var(--color-neutral-white);
+            padding: var(--space-20) var(--space-6);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(15, 123, 110, 0.7), rgba(15, 123, 110, 0.9));
+            z-index: -1;
+        }
+
+        .hero-content {
+            max-width: 700px;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero h1 {
+            color: var(--color-neutral-white);
+            margin-bottom: var(--space-6);
+            font-size: var(--font-size-4xl);
+            line-height: 1.3;
+        }
+
+        .hero .subheading {
+            font-size: var(--font-size-xl);
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: var(--space-8);
+            line-height: 1.5;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-4);
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero h1 {
+                font-size: var(--font-size-5xl);
+            }
+            .hero-cta-group {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* SEÇÃO SERVIÇOS                                                      */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .services {
+            padding: var(--space-20) var(--space-6);
+            background-color: var(--color-neutral-light);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-16);
+        }
+
+        .section-header h2 {
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-4);
+        }
+
+        .section-header p {
+            font-size: var(--font-size-lg);
+            color: var(--color-text-secondary);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-8);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .service-card {
+            background-color: var(--color-neutral-white);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--duration-normal) var(--ease-in-out);
+        }
+
+        .service-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-8px);
+        }
+
+        .service-card-image {
+            width: 100%;
+            height: 250px;
+            background-color: var(--color-neutral-light);
+            object-fit: cover;
+        }
+
+        .service-card-content {
+            padding: var(--space-8);
+        }
+
+        .service-card h3 {
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-4);
+        }
+
+        .service-card p {
+            font-size: var(--font-size-sm);
+            line-height: 1.6;
+            margin-bottom: var(--space-6);
+        }
+
+        .service-card a {
+            color: var(--color-primary);
+            font-weight: var(--font-weight-semibold);
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* SEÇÃO POR QUE ESCOLHER A GENTE                                      */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .why-us {
+            padding: var(--space-20) var(--space-6);
+        }
+
+        .why-us-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-12);
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .why-us-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .why-us-image {
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-xl);
+            object-fit: cover;
+        }
+
+        .why-us-list {
+            list-style: none;
+        }
+
+        .why-us-list li {
+            display: flex;
+            gap: var(--space-4);
+            margin-bottom: var(--space-6);
+            align-items: flex-start;
+        }
+
+        .why-us-list li::before {
+            content: '✓';
+            color: var(--color-success);
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-bold);
+            flex-shrink: 0;
+            line-height: 1.2;
+        }
+
+        .why-us-list li span {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .why-us-list li strong {
+            color: var(--color-text-primary);
+            font-size: var(--font-size-lg);
+        }
+
+        .why-us-list li em {
+            color: var(--color-text-secondary);
+            font-size: var(--font-size-sm);
+            margin-top: var(--space-1);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* GALERIA ANTES/DEPOIS                                                */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .before-after-section {
+            padding: var(--space-20) var(--space-6);
+            background-color: var(--color-neutral-light);
+        }
+
+        .before-after-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-8);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .before-after-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .before-after-item {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            cursor: pointer;
+            background-color: var(--color-text-primary);
+        }
+
+        .before-after-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%;
+        }
+
+        .before-after-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .before-after-label {
+            position: absolute;
+            top: var(--space-4);
+            left: var(--space-4);
+            background-color: rgba(15, 123, 110, 0.9);
+            color: var(--color-neutral-white);
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius-sm);
+            font-weight: var(--font-weight-semibold);
+            font-size: var(--font-size-sm);
+        }
+
+        .before-after-slider {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 4px;
+            height: 100%;
+            background-color: var(--color-accent-warm);
+            cursor: col-resize;
+            transform: translateX(-50%);
+        }
+
+        .before-after-slider::before,
+        .before-after-slider::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            background-color: var(--color-accent-warm);
+            border-radius: 50%;
+            transform: translateY(-50%);
+        }
+
+        .before-after-slider::before {
+            left: -18px;
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+        }
+
+        .before-after-slider::after {
+            right: -18px;
+            clip-path: polygon(100% 0, 0 50%, 100% 100%);
+        }
+
+        .before-after-caption {
+            padding: var(--space-4);
+            text-align: center;
+            color: var(--color-text-primary);
+            font-size: var(--font-size-sm);
+            margin-top: var(--space-4);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* DEPOIMENTOS / PROVA SOCIAL                                          */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .testimonials {
+            padding: var(--space-20) var(--space-6);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-8);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .testimonials-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .testimonial-card {
+            background-color: var(--color-neutral-light);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .testimonial-rating {
+            display: flex;
+            gap: var(--space-1);
+            margin-bottom: var(--space-4);
+        }
+
+        .star {
+            color: #fbbf24;
+            font-size: var(--font-size-base);
+        }
+
+        .testimonial-text {
+            font-size: var(--font-size-base);
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-6);
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: var(--space-4);
+        }
+
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: var(--color-border);
+        }
+
+        .testimonial-meta {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .testimonial-name {
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-text-primary);
+        }
+
+        .testimonial-location {
+            font-size: var(--font-size-sm);
+            color: var(--color-text-secondary);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* CTA FIXO MOBILE                                                     */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .floating-cta {
+            position: fixed;
+            bottom: var(--space-4);
+            right: var(--space-4);
+            background-color: var(--color-accent-warm);
+            color: var(--color-neutral-white);
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-lg);
+            cursor: pointer;
+            z-index: 900;
+            transition: all var(--duration-normal) var(--ease-in-out);
+            border: none;
+            font-size: var(--font-size-2xl);
+        }
+
+        .floating-cta:hover {
+            transform: scale(1.1);
+            background-color: var(--color-accent-warm-dark);
+        }
+
+        @media (min-width: 768px) {
+            .floating-cta {
+                display: none;
+            }
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* MODAL / LIGHTBOX                                                    */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-4);
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: var(--color-neutral-white);
+            border-radius: var(--radius-xl);
+            max-width: 90vw;
+            max-height: 90vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background-color: var(--color-neutral-dark);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: var(--space-4);
+            right: var(--space-4);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: var(--color-neutral-white);
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: var(--font-size-2xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--duration-fast) var(--ease-in-out);
+        }
+
+        .modal-close:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-controls {
+            position: absolute;
+            bottom: var(--space-4);
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: var(--space-4);
+        }
+
+        .modal-nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: var(--color-neutral-white);
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-lg);
+            transition: all var(--duration-fast) var(--ease-in-out);
+        }
+
+        .modal-nav:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* FOOTER                                                              */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        footer {
+            background-color: var(--color-text-primary);
+            color: var(--color-neutral-white);
+            padding: var(--space-16) var(--space-6);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-12);
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-bottom: var(--space-12);
+        }
+
+        @media (min-width: 768px) {
+            .footer-content {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .footer-section h4 {
+            color: var(--color-neutral-white);
+            margin-bottom: var(--space-6);
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: var(--space-4);
+        }
+
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: var(--font-size-sm);
+        }
+
+        .footer-section a:hover {
+            color: var(--color-primary-light);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: var(--space-8);
+            text-align: center;
+            font-size: var(--font-size-sm);
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* ANIMAÇÕES                                                           */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════ */
+        /* RESPONSIVIDADE                                                      */
+        /* ═══════════════════════════════════════════════════════════════════ */
+
+        @media (max-width: 767px) {
+            h1 { font-size: var(--font-size-3xl); }
+            h2 { font-size: var(--font-size-2xl); }
+            h3 { font-size: var(--font-size-xl); }
+
+            .hero {
+                padding: var(--space-12) var(--space-6);
+                min-height: 400px;
+            }
+
+            .btn {
+                padding: var(--space-3) var(--space-6);
+                font-size: var(--font-size-sm);
+            }
+
+            .section-header {
+                margin-bottom: var(--space-12);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- HEADER / NAVEGAÇÃO                                                         -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+                </svg>
+                AD Telas e Redes
+            </div>
+            <nav class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#about">Sobre</a></li>
+            </nav>
+            <div class="nav-contact">
+                <a href="https://wa.me/5511999999999" class="btn btn-secondary" style="display: none;">Chamar no WhatsApp</a>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- HERO SECTION                                                               -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Proteja sua família com redes e telas sob medida</h1>
+        <p class="subheading">Instalação rápida — orçamento em 24h — garantia de 2 anos</p>
+        <div class="hero-cta-group">
+            <a href="https://wa.me/5511999999999?text=Olá,%20quero%20solicitar%20um%20orçamento%20para%20telas/redes%20de%20proteção" class="btn btn-primary">Solicitar Orçamento via WhatsApp</a>
+            <a href="#contact" class="btn btn-outline">Saiba Mais</a>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- SERVIÇOS PRINCIPAIS                                                        -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2>Nossos Serviços</h2>
+            <p>Soluções completas de proteção para toda a sua residência</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Card 1: Telas Mosquiteiras -->
+            <div class="service-card">
+                <img src="/images/tela_janela_01.jpg" alt="Tela mosquiteira para janela residencial" class="service-card-image" loading="lazy">
+                <div class="service-card-content">
+                    <h3>Telas Mosquiteiras</h3>
+                    <p>Proteção contra mosquitos, insetos e garantia de ventilação. Disponível em fibra de vidro ou alumínio.</p>
+                    <a href="#service-mosquito">Ver detalhes →</a>
+                </div>
+            </div>
+
+            <!-- Card 2: Redes de Proteção -->
+            <div class="service-card">
+                <img src="/images/hero_varanda_01.jpg" alt="Rede de proteção instalada em varanda de apartamento em São Paulo" class="service-card-image" loading="lazy">
+                <div class="service-card-content">
+                    <h3>Redes de Proteção</h3>
+                    <p>Proteção total para varandas, sacadas e piscinas. Certificadas e resistentes a impactos.</p>
+                    <a href="#service-rede">Ver detalhes →</a>
+                </div>
+            </div>
+
+            <!-- Card 3: Pet Screen -->
+            <div class="service-card">
+                <img src="/images/petscreen_gato_01.jpg" alt="Pet screen resistente para proteção de gatos" class="service-card-image" loading="lazy">
+                <div class="service-card-content">
+                    <h3>Pet Screen</h3>
+                    <p>Material reforçado e resistente especialmente desenvolvido para pets. Garante segurança sem prejudicar ventilação.</p>
+                    <a href="#service-petscreen">Ver detalhes →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- POR QUE ESCOLHER A GENTE?                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<section id="why-us" class="why-us">
+    <div class="container">
+        <div class="section-header">
+            <h2>Por que escolher a AD Telas e Redes?</h2>
+        </div>
+
+        <div class="why-us-content">
+            <img src="/images/instalacao_equipe_01.jpg" alt="Equipe instalando redes de proteção" class="why-us-image" loading="lazy">
+            
+            <ul class="why-us-list">
+                <li>
+                    <span>
+                        <strong>Instalação em 48h</strong>
+                        <em>Agendamos e executamos rapidamente sem complicações</em>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <strong>Garantia de 2 anos</strong>
+                        <em>Cobertura completa em material e mão de obra</em>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <strong>Parcelamento em até 12x</strong>
+                        <em>Sem juros para orçamentos acima de R$ 500</em>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <strong>Serviço Técnico Especializado</strong>
+                        <em>Equipe treinada e equipada para qualquer tipo de instalação</em>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <strong>Suporte ao Cliente 24/7</strong>
+                        <em>Dúvidas? Fale com a gente via WhatsApp a qualquer hora</em>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <strong>Orçamento Transparente</strong>
+                        <em>Sem custos ocultos — o que falamos é o que você paga</em>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- GALERIA ANTES/DEPOIS                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<section class="before-after-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Transformações Reais</h2>
+            <p>Veja os resultados dos nossos trabalhos</p>
+        </div>
+
+        <div class="before-after-grid">
+            <!-- Item 1 -->
+            <div class="before-after-item" onclick="openBeforeAfter(this)">
+                <div class="before-after-container">
+                    <img src="/images/antes_depois_varanda_01_before.jpg" alt="Antes: varanda sem proteção" class="before-after-image">
+                </div>
+                <div class="before-after-label">Antes</div>
+                <div class="before-after-caption">Varanda exposta — Pinheiros, SP</div>
+            </div>
+
+            <div class="before-after-item" onclick="openBeforeAfter(this)" style="opacity: 0.5; pointer-events: none;">
+                <div class="before-after-container">
+                    <img src="/images/antes_depois_varanda_01_after.jpg" alt="Depois: varanda com rede de proteção instalada" class="before-after-image">
+                </div>
+                <div class="before-after-label">Depois</div>
+                <div class="before-after-caption">Varanda segura — Proteção instalada</div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="before-after-item" onclick="openBeforeAfter(this)">
+                <div class="before-after-container">
+                    <img src="/images/janela_basculante_antes.jpg" alt="Janela basculante antes" class="before-after-image">
+                </div>
+                <div class="before-after-label">Antes</div>
+                <div class="before-after-caption">Janela basculante — Vila Madalena, SP</div>
+            </div>
+
+            <div class="before-after-item" onclick="openBeforeAfter(this)" style="opacity: 0.5; pointer-events: none;">
+                <div class="before-after-container">
+                    <img src="/images/janela_basculante_depois.jpg" alt="Janela basculante depois" class="before-after-image">
+                </div>
+                <div class="before-after-label">Depois</div>
+                <div class="before-after-caption">Com tela mosquiteira — Proteção total</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- DEPOIMENTOS / PROVA SOCIAL                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2>Nossos Clientes Aprovam</h2>
+            <p>Veja o que acham de nosso trabalho</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <!-- Depoimento 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">"Serviço excelente! Instalaram a rede em menos de 48h e ficou perfeito. Recomendo para todos os vizinhos."</p>
+                <div class="testimonial-author">
+                    <img src="/images/avatar_maria.jpg" alt="Maria Silva" class="testimonial-avatar" loading="lazy">
+                    <div class="testimonial-meta">
+                        <span class="testimonial-name">Maria Silva</span>
+                        <span class="testimonial-location">Pinheiros, SP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Depoimento 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">"Preço justo, qualidade premium e atendimento que realmente se importa. Voltaria a usar com certeza!"</p>
+                <div class="testimonial-author">
+                    <img src="/images/avatar_joão.jpg" alt="João Santos" class="testimonial-avatar" loading="lazy">
+                    <div class="testimonial-meta">
+                        <span class="testimonial-name">João Santos</span>
+                        <span class="testimonial-location">Vila Mariana, SP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Depoimento 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">"Meu gato adorou o pet screen! Seguro, resistente e ainda posso abrir a janela sem preocupação."</p>
+                <div class="testimonial-author">
+                    <img src="/images/avatar_ana.jpg" alt="Ana Costa" class="testimonial-avatar" loading="lazy">
+                    <div class="testimonial-meta">
+                        <span class="testimonial-name">Ana Costa</span>
+                        <span class="testimonial-location">Higienópolis, SP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- FOOTER                                                                     -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<footer id="contact">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>AD Telas e Redes</h4>
+                <p style="color: rgba(255, 255, 255, 0.8); font-size: var(--font-size-sm);">Proteção profissional para toda a sua família desde 2015.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="#services">Telas Mosquiteiras</a></li>
+                    <li><a href="#services">Redes de Proteção</a></li>
+                    <li><a href="#services">Pet Screen</a></li>
+                    <li><a href="#services">Portas e Janelas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Bairros Atendidos</h4>
+                <ul>
+                    <li><a href="#">Pinheiros</a></li>
+                    <li><a href="#">Vila Madalena</a></li>
+                    <li><a href="#">Vila Mariana</a></li>
+                    <li><a href="#">Higienópolis</a></li>
+                    <li><a href="#">Zona Sul completa</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <ul style="gap: var(--space-8);">
+                    <li>
+                        <a href="https://wa.me/5511999999999" style="display: flex; align-items: center; gap: var(--space-2);">
+                            💬 (11) 99999-9999
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:ola@adtelaseredes.com.br" style="display: flex; align-items: center; gap: var(--space-2);">
+                            📧 ola@adtelaseredes.com.br
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="display: flex; align-items: center; gap: var(--space-2);">
+                            📍 Atendimento em SP
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 AD Telas e Redes. Todos os direitos reservados. | <a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- CTA FLUTUANTE MOBILE                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<button class="floating-cta" title="Abrir WhatsApp" onclick="openWhatsApp()">💬</button>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- MODAL LIGHTBOX                                                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal()">×</button>
+        <img id="modalImage" src="" alt="" class="modal-image">
+        <div class="modal-controls">
+            <button class="modal-nav" onclick="prevImage()" aria-label="Imagem anterior">‹</button>
+            <button class="modal-nav" onclick="nextImage()" aria-label="Próxima imagem">›</button>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- JAVASCRIPT — LÓGICA E INTERATIVIDADE                                      -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<script>
+    // ═════════════════════════════════════════════════════════════════════════
+    // CONFIGURAÇÕES GLOBAIS
+    // ═════════════════════════════════════════════════════════════════════════
+
+    const CONFIG = {
+        whatsAppNumber: '5511999999999',
+        whatsAppMessage: 'Olá, gostaria de solicitar um orçamento para telas/redes de proteção.',
+        serviceMap: {
+            'mosquito': 'Telas Mosquiteiras',
+            'rede': 'Redes de Proteção',
+            'petscreen': 'Pet Screen'
+        }
+    };
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // MODAL / LIGHTBOX
+    // ═════════════════════════════════════════════════════════════════════════
+
+    let currentImageIndex = 0;
+    let modalImages = [];
+
+    function openModal(src, altText) {
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modalImage');
+        modalImage.src = src;
+        modalImage.alt = altText;
+        modal.classList.add('active');
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.classList.remove('active');
+    }
+
+    function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % modalImages.length;
+        document.getElementById('modalImage').src = modalImages[currentImageIndex];
+    }
+
+    function prevImage() {
+        currentImageIndex = (currentImageIndex - 1 + modalImages.length) % modalImages.length;
+        document.getElementById('modalImage').src = modalImages[currentImageIndex];
+    }
+
+    // Fechar modal ao clicar fora da imagem
+    document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('modal');
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Fechar com ESC
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    });
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // BEFORE/AFTER SLIDER
+    // ═════════════════════════════════════════════════════════════════════════
+
+    function openBeforeAfter(element) {
+        const beforeImg = element.querySelector('img');
+        openModal(beforeImg.src, beforeImg.alt);
+    }
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // WHATSAPP INTEGRATION
+    // ═════════════════════════════════════════════════════════════════════════
+
+    function openWhatsApp(service = null) {
+        let message = CONFIG.whatsAppMessage;
+        if (service && CONFIG.serviceMap[service]) {
+            message = `Olá, gostaria de solicitar um orçamento para ${CONFIG.serviceMap[service]}.`;
+        }
+        const encodedMessage = encodeURIComponent(message);
+        window.open(`https://wa.me/${CONFIG.whatsAppNumber}?text=${encodedMessage}`, '_blank');
+    }
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // SMOOTH SCROLL & SCROLL SPY
+    // ═════════════════════════════════════════════════════════════════════════
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href !== '#' && document.querySelector(href)) {
+                e.preventDefault();
+                document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // HAMBURGER MENU (Mobile)
+    // ═════════════════════════════════════════════════════════════════════════
+
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    if (hamburger) {
+        hamburger.addEventListener('click', function() {
+            navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+            navMenu.style.position = 'absolute';
+            navMenu.style.top = '100%';
+            navMenu.style.left = '0';
+            navMenu.style.right = '0';
+            navMenu.style.flexDirection = 'column';
+            navMenu.style.backgroundColor = 'white';
+            navMenu.style.borderTop = '1px solid var(--color-border)';
+            navMenu.style.padding = 'var(--space-4)';
+        });
+    }
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // LAZY LOADING DE IMAGENS
+    // ═════════════════════════════════════════════════════════════════════════
+
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src || img.src;
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        document.querySelectorAll('img[data-src]').forEach(img => imageObserver.observe(img));
+    }
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // ANALYTICS TRACKING
+    // ═════════════════════════════════════════════════════════════════════════
+
+    function trackEvent(category, action, label) {
+        if (window.gtag) {
+            gtag('event', action, {
+                'event_category': category,
+                'event_label': label
+            });
+        }
+    }
+
+    // Rastrear cliques em CTAs
+    document.querySelectorAll('[href*="wa.me"]').forEach(btn => {
+        btn.addEventListener('click', function() {
+            trackEvent('WhatsApp', 'Click', 'CTA Button');
+        });
+    });
+
+    // ═════════════════════════════════════════════════════════════════════════
+    // SCROLL ANIMATION (fade-in ao entrar em viewport)
+    // ═════════════════════════════════════════════════════════════════════════
+
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const scrollObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                scrollObserver.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.card, .service-card, .testimonial-card').forEach(el => {
+        scrollObserver.observe(el);
+    });
+
+    console.log('✓ AD Telas e Redes — Frontend carregado com sucesso!');
+</script>
+
+</body>
+</html>
